@@ -1,13 +1,69 @@
 {
   "episode": 1,
   "series": "THE BOY NOBODY NOTICED",
-  "title": "The Boy Nobody Noticed",
-  "description": "Everyone ignored Alex—until a message appeared on his desk. Part 1.",
+  "title": "The Boy Nobody Noticed — Part 1",
+  "description": "Everyone ignored Alex—until a message appeared on his desk. A one-minute Roblox-style mystery story.",
+  "scene_seconds": 5,
   "scenes": [
-    {"caption": "AT THIS SCHOOL, ALEX WAS INVISIBLE.", "mood": "quiet"},
-    {"caption": "NO FRIENDS. NO INVITATIONS. NO ONE ASKED WHY.", "mood": "quiet"},
-    {"caption": "THEN MIA FOUND A NOTE IN HIS LOCKER.", "mood": "mystery"},
-    {"caption": "IT HAD HER NAME ON IT.", "mood": "shock"},
-    {"caption": "YOUR BROTHER ISN'T GONE.", "mood": "cliffhanger"}
+    {
+      "caption": "AT THIS SCHOOL, ALEX WAS INVISIBLE.",
+      "narration": "At this school, Alex was invisible.",
+      "mood": "quiet"
+    },
+    {
+      "caption": "PEOPLE WALKED PAST HIM EVERY SINGLE DAY.",
+      "narration": "People walked past him every single day.",
+      "mood": "quiet"
+    },
+    {
+      "caption": "NO FRIENDS. NO MESSAGES. NOT EVEN A HELLO.",
+      "narration": "No friends. No messages. Not even a hello.",
+      "mood": "sad"
+    },
+    {
+      "caption": "BUT ALEX ALWAYS SAVED ONE SEAT BESIDE HIM.",
+      "narration": "But Alex always saved one seat beside him.",
+      "mood": "sad"
+    },
+    {
+      "caption": "BECAUSE HIS LITTLE BROTHER USED TO SIT THERE.",
+      "narration": "Because his little brother used to sit there.",
+      "mood": "memory"
+    },
+    {
+      "caption": "THEN ONE MORNING, MIA FOUND A NOTE.",
+      "narration": "Then one morning, Mia found a note.",
+      "mood": "mystery"
+    },
+    {
+      "caption": "IT WAS HIDDEN INSIDE ALEX'S LOCKER.",
+      "narration": "It was hidden inside Alex's locker.",
+      "mood": "mystery"
+    },
+    {
+      "caption": "THE PAPER WAS OLD. THE HANDWRITING WAS FAMILIAR.",
+      "narration": "The paper was old. The handwriting was familiar.",
+      "mood": "mystery"
+    },
+    {
+      "caption": "MIA READ THE FIRST LINE… AND FROZE.",
+      "narration": "Mia read the first line, and froze.",
+      "mood": "shock"
+    },
+    {
+      "caption": "ALEX, SOMEONE HAS BEEN LOOKING FOR YOU.",
+      "narration": "Alex, someone has been looking for you.",
+      "mood": "shock"
+    },
+    {
+      "caption": "SHE TURNED THE NOTE OVER. ONE LAST MESSAGE.",
+      "narration": "She turned the note over. One last message.",
+      "mood": "cliffhanger"
+    },
+    {
+      "caption": "YOUR BROTHER ISN'T GONE.",
+      "narration": "Your brother isn't gone.",
+      "mood": "cliffhanger"
+    }
   ]
 }
