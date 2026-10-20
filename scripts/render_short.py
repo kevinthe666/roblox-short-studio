@@ -55,7 +55,7 @@ def draw_character(draw, x, y, shirt, hair, shocked=False, scale=1.0):
     else:
         draw.line((x+43*scale, y+49*scale, x+61*scale, y+49*scale), fill=(120,50,50), width=2)
 
-def make_frame(scene, index, total, series):
+def make_frame(scene, index, total, series, phase=0.0):
     img = Image.new("RGB", (WIDTH, HEIGHT))
     pix = img.load()
     mood = scene.get("mood", "quiet")
@@ -88,7 +88,7 @@ def make_frame(scene, index, total, series):
     for x in (40,550):
         d.rectangle((x,300,x+120,620), fill=(43,52,83))
         d.rectangle((x+14,320,x+106,520), fill=(18,27,53))
-    drift = int(12 * math.sin((index + 1) * 1.7))
+    drift = int(15 * math.sin(phase * math.pi * 2 + index * 0.7))
     if mood in ("quiet","sad","memory"):
         draw_character(d, 280+drift, 440, (55,92,170), (25,26,36), False, 1.2)
         if mood == "memory":
@@ -131,7 +131,8 @@ def main():
     for i, scene in enumerate(data["scenes"]):
         base = make_frame(scene, i, len(data["scenes"]), data["series"])
         for j in range(frames_per_scene):
-            scale = 1.0 + 0.018 * j / max(1, frames_per_scene-1)
+            phase = j / max(1, frames_per_scene-1)
+            scale = 1.0 + 0.025 * phase
             nw, nh = int(WIDTH*scale), int(HEIGHT*scale)
             zoom = base.resize((nw,nh), Image.Resampling.LANCZOS)
             left, top = (nw-WIDTH)//2, (nh-HEIGHT)//2
