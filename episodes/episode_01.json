@@ -1,0 +1,13 @@
+{
+  "episode": 1,
+  "series": "THE BOY NOBODY NOTICED",
+  "title": "The Boy Nobody Noticed",
+  "description": "Everyone ignored Alex—until a message appeared on his desk. Part 1.",
+  "scenes": [
+    {"caption": "AT THIS SCHOOL, ALEX WAS INVISIBLE.", "mood": "quiet"},
+    {"caption": "NO FRIENDS. NO INVITATIONS. NO ONE ASKED WHY.", "mood": "quiet"},
+    {"caption": "THEN MIA FOUND A NOTE IN HIS LOCKER.", "mood": "mystery"},
+    {"caption": "IT HAD HER NAME ON IT.", "mood": "shock"},
+    {"caption": "YOUR BROTHER ISN'T GONE.", "mood": "cliffhanger"}
+  ]
+}
